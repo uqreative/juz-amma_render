@@ -1,0 +1,21 @@
+ul, ol, li {list-style: none;margin: 0;padding: 0;}
+
+.gnb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+/* .gnb_logo>h1 {font-size: 0;} */
+.gnb_logo img {
+    display: block;
+    width: auto;
+    height: 64px;
+}
+.gnb ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
